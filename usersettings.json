@@ -15,5 +15,9 @@
     "sublimeTextKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
-    "editor.formatOnPaste": true
+    "editor.formatOnPaste": true,
+    "git.autofetch": true,
+    "workbench.sideBar.location": "left",
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true
 }

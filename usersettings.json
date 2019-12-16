@@ -15,17 +15,9 @@
     "python.linting.flake8Enabled": true,
     "python.linting.pydocstyleEnabled": true,
     "python.linting.prospectorEnabled": true,    
-    "go.gopath": "/home/jaideepkekre/go",
-    "go.alternateTools": {
-        "go-langserver": "bingo"
-    },
-    "go.languageServerExperimentalFeatures": {
-        "format": true,
-        "autoComplete": true
-    },
     
-    "go.useLanguageServer": true,
-    "workbench.colorTheme": "SynthWave '84",
+    
+   
     "sublimeTextKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
@@ -35,7 +27,6 @@
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
     "terminal.integrated.rendererType": "dom",
-    "go.autocompleteUnimportedPackages": true,
     "python.jediEnabled": false,
     "python.linting.pylintEnabled": true,
     "window.zoomLevel": -1,
@@ -47,13 +38,34 @@
     "editor.fontLigatures": true,
     "editor.fontFamily": "'Fira Code'",
     "editor.formatOnType": true,
-    "editor.fontSize": 16,
-    "material-icon-theme.folders.color": "#ef5350",
-    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 16,   
     "extensions.recommendations": [],
+    
+    
+    
     "go.coverOnSave": true,
     "git.suggestSmartCommit": false,
+    "go.gopath": "/home/jaideepkekre/go",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "vscode-icons",
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        }
+    },
+    "gopls": {
+        "usePlaceholders": true, // add parameter placeholders when completing a function
+
+        // Experimental settings
+        "completeUnimported": true, // autocomplete unimported packages
+        "deepCompletion": true,     // enable deep completion
+    },
+    "go.useLanguageServer": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
     "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    }
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
